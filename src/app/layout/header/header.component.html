@@ -28,6 +28,7 @@
         [routerLink]="['/']"
         routerLinkActive="active"
         class="nav-item nav-link"
+        [routerLinkActiveOptions]="{ exact: true }"
         >Home</a
       >
       <!-- conditionally rendering links  -->
@@ -50,6 +51,7 @@
         *ngIf="email"
         (click)="handleSignOut()"
         class="nav-item nav-link text-warning"
+        style="cursor: pointer;"
         >Log Out</a
       >
 
