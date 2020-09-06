@@ -77,7 +77,7 @@ export class SignupComponent implements OnInit {
   async uploadFile(event) {
     const file = event.target.files[0];
 
-    let resizedImage = await readAndCompressImage(file, imageConfig);
+    const resizedImage = await readAndCompressImage(file, imageConfig);
 
     const filePath = file.name;
 
