@@ -1,13 +1,13 @@
 <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
   <a class="navbar-brand" [routerLink]="['/']">
     <img
-      src="assets/img.png"
+      src="assets/img.jpg"
       width="30"
       height="30"
-      class="d-inline-block align-top"
+      class="d-inline-block align-top rounded"
       alt=""
     />
-    LCO Social Network
+    Social Network App
   </a>
   <button
     class="navbar-toggler"
@@ -51,7 +51,7 @@
         *ngIf="email"
         (click)="handleSignOut()"
         class="nav-item nav-link text-warning"
-        style="cursor: pointer;"
+        style="cursor: pointer"
         >Log Out</a
       >
 
