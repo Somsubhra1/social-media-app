@@ -30,7 +30,7 @@ import { imageConfig } from '../../../utils/config';
 })
 export class SignupComponent implements OnInit {
   picture =
-    'https://learnyst.s3.amazonaws.com/assets/schools/2410/resources/images/logo_lco_i3oab.png';
+    'https://www.pinclipart.com/picdir/middle/138-1385107_png-file-user-vector-icon-png-clipart.png';
 
   uploadPercent: number = null;
 
